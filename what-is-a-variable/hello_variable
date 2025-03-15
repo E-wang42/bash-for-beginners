@@ -2,4 +2,13 @@
 
 # Welcome to your first Bash Script
 
-echo 'Hello World!'
+foo="meow"
+bar="mix"
+# cat $foo $bar > fooBar
+msg="a cat named $foo, and likes to eat $bar"
+readonly const=42
+# sum=$(($const + 3))
+
+echo $sum
+
+# echo $msg
