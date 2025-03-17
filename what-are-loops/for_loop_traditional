@@ -4,6 +4,11 @@
 
 services=("loadbalancer" "virtualmachine" "storage")
 
+# for i in "${services[@]}"
+# do
+#    echo $i
+# done
+
 for i in "${services[@]}"
 do
    echo $i

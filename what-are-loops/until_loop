@@ -2,9 +2,15 @@
 
 # A script to display a series of numbers using while.
 
-counter=1
-until [[ "$counter" -gt 10 ]]; do
-    echo "The counter is at: $counter"
-    counter=$((counter + 1))
-done
-echo "The count has finished."
+# counter=1
+# until [[ "$counter" -gt 10 ]]; do
+#     echo "The counter is at: $counter"
+#     counter=$((counter + 1))
+# done
+# echo "The count has finished."
+
+num=0
+until [[ "$num" -eq 100 ]]; do
+    echo "The Current Sum is -$num-"
+    num=$(( num + 10 ))
+    done
